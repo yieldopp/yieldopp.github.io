@@ -5,23 +5,34 @@
     box-sizing: border-box;
     font-family: 'Noto Sans' , sans-serif;
     text-decoration: none;
-
+}
+body {
+    background-color: var(--GREEN50);
 }
 
+:root {
+    --RED: #743c08;
+    --ORANGE: #df760b;
+    --YELLOW: #f6b61e;
+    --GREEN: #ffebaf;
+
+    --RED50: #743c087f;
+    --ORANGE50: #df760b7f;
+    --YELLOW50: #f6b61e7f;
+    --GREEN50: #ffebaf7f;
+}
+hr {background-color: var(--RED);}
 nav {
- 
     width: 100%;
     height: 5vw;
-    background: linear-gradient(125deg ,#e0e001, #d8ef07);
+    background: linear-gradient(125deg ,var(--GREEN), var(--YELLOW));
     margin: 0 auto;
-
-
+    position: sticky;
 }
 .logo {
     color: black;
     font-size: 28px;
     cursor: pointer;
-
 }
 .logo:hover{
     color: white;
@@ -37,7 +48,6 @@ nav {
     padding-left: 10%;
     padding-right: 10%;
 }
-
 nav div li{
     list-style-type: none;
     display: inline-block;
@@ -56,7 +66,7 @@ nav div li a:hover{
 }
 button {
     border: none;
-    background: #ea1538;
+    background: var(--RED);
     padding: 12px,30px;
     border-radius: 30px;
     color: white;
@@ -68,6 +78,19 @@ button {
 header {
     text-align: center;
 }
-p{
-    color: yellow;
+header hr {
+    width: 80%;
+    margin: auto;
+}
+main {
+    padding-top: 5%;
+}
+main hr.w50 {
+    width: 50%;
+}
+main hr.w75 {
+    width: 75%;
+}
+aside {
+    background-color: var(--YELLOW50);
 }

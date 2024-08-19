@@ -1,0 +1,33 @@
+.content {
+    display:flex;
+}
+main {
+    margin-left: 20px;
+    flex: 10;
+}
+aside {
+    flex: 3;
+    padding: 10px;
+}
+main p, main code, main pre, main h1,main h2,main h3,main h4,main h5,main h6,main li {
+    color:black;
+    padding-top: 3px;
+}
+main, aside {
+    h1 {font-size: 39px; padding-left: 13px;}
+    h2 {font-size: 35px; padding-left: 13px;}
+    h3 {font-size: 30px; padding-left: 13px;}
+    h4 {font-size: 22px; padding-left: 10px;}
+    h5 {font-size: 22px; padding-left: 7px;}
+    h6 {font-size: 22px; padding-left: 5px;}
+}
+a {
+    color: #bd93f9;
+}
+h3 {
+    font-size: 30px;
+}
+li {
+    list-style-type: none;
+    padding-left: 20px;
+}
