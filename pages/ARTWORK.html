@@ -1,89 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kittisak</title>
+    <title>Artwork | Kittisak Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Thai:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
-    <link rel="shrotcut icon" href="../favicon.svg">
-    <link rel="stylesheet" href="../pages/pagestyle.css">
+    <link rel="stylesheet" href="pagestyle.css">
+    <link rel="shortcut icon" href="../images/brand/favicon.svg">
 </head>
+
 <body>
+    <div class="glow-bg"></div>
     <header>
-        <nav>
-            <img class="img_proflie" src="../favicon.svg" alt="profile">
-            <div class="navbar_button">
+        <nav class="navbar">
+            <div class="logo">
+                <img class="img_profile" src="../images/brand/favicon.svg" alt="logo">
+                <span>Kittisak.</span>
+            </div>
+            <div class="navbar_links">
                 <a href="../index.html">HOME</a>
-                <a href="../pages/ARTWORK.html">ARTWORK</a>
-                <a href="../pages/3D_MODEL.html">3D MODEL</a>
-                <a href="../pages/CODE.html">CODE</a>
-                <a href="../pages/GRAPHIC.html">GRAPHIC</a>
+                <a href="./ARTWORK.html" class="active">ARTWORK</a>
+                <a href="./3D_MODEL.html">3D MODEL</a>
+                <a href="./CODE.html">CODE</a>
+
             </div>
         </nav>
     </header>
-    <main>
-        <div class="big-main">
-            <div class="top-main">
-                <div class="sub-main1">
-                    <div class="sub-main-top1">
-                        <p>nigger</p>
-                    </div>
-                    <br>
-                    <p>nigger</p>
+
+    <main class="page-container">
+        <div class="page-header">
+            <h1 class="page-title">Artwork</h1>
+            <p class="page-subtitle">A collection of my digital and traditional artwork creations.</p>
+        </div>
+
+        <div class="gallery-grid">
+            <!-- Example items -->
+            <div class="gallery-item glass-panel">
+                <div class="item-image-wrapper">
+                    <img src="../images/artwork/draw-01.png" alt="Project Alpha">
                 </div>
-                <div class="sub-main2">
-                    <div class="sub-main-top2">
-                        <p>nigger</p>
+                <div class="item-info">
+                    <h3 class="item-title">Project Alpha</h3>
+                    <p class="item-desc">An exploratory piece blending sci-fi elements with traditional motifs. Created
+                        using Photoshop and Clip Studio Paint.</p>
+                    <div class="item-tags">
+                        <span>Digital Painting</span>
+                        <span>Photoshop</span>
                     </div>
-                    <br>
-                    <p>nigger</p>
-                </div>
-                <div class="sub-main3">
-                    <div class="sub-main-top3">
-                        <p>nigger</p>
-                    </div>
-                    <br>
-                    <p>nigger</p>
-                </div>
-                <div class="sub-main4">
-                    <div class="sub-main-top4">
-                        <p>nigger</p>
-                    </div>
-                    <br>
-                    <p>nigger</p>
                 </div>
             </div>
-            <div class="buttom-main">
-                <div class="sub-main1">
-                    <div class="sub-main-top1">
-                        <p>nigger</p>
-                    </div>
-                    <br>
-                    <p>nigger</p>
+
+            <div class="gallery-item glass-panel">
+                <div class="item-image-wrapper">
+                    <img src="../images/artwork/draw-02.png" alt="Concept Art - Environment">
                 </div>
-                <div class="sub-main2">
-                    <div class="sub-main-top2">
-                        <p>nigger</p>
+                <div class="item-info">
+                    <h3 class="item-title">Concept Art - Environment</h3>
+                    <p class="item-desc">A deep dive into environment design for a personal world-building project.
+                        Focusing on lighting and mood.</p>
+                    <div class="item-tags">
+                        <span>Concept Art</span>
+                        <span>Environment</span>
                     </div>
-                    <br>
-                    <p>nigger</p>
-                </div>
-                <div class="sub-main3">
-                    <div class="sub-main-top3">
-                        <p>nigger</p>
-                    </div>
-                    <br>
-                    <p>nigger</p>
-                </div>
-                <div class="sub-main4">
-                    <div class="sub-main-top4">
-                        <p>nigger</p>
-                    </div>
-                    <br>
-                    <p>nigger</p>
                 </div>
             </div>
+
+            <div class="gallery-item glass-panel">
+                <div class="item-image-wrapper">
+                    <img src="../images/artwork/draw-03.jpg" alt="test">
+                </div>
+                <div class="item-info">
+                    <h3 class="item-title">test</h3>
+                    <p class="item-desc">รูปนี้เอาไว้ฝึกลงสี</p>
+                    <div class="item-tags">
+                        <span>Character Design</span>
+                        <span>Illustration</span>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </main>
 </body>
+
 </html>

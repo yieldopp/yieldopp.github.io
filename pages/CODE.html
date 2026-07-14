@@ -1,86 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kittisak</title>
+    <title>Code | Kittisak Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Thai:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
-    <link rel="shrotcut icon" href="../favicon.svg">
-    <link rel="stylesheet" href="../pages/pagestyle.css">
+    <link rel="stylesheet" href="pagestyle.css">
+    <link rel="shortcut icon" href="../images/brand/favicon.svg">
 </head>
 <body>
+    <div class="glow-bg"></div>
     <header>
-        <nav>
-            <img class="img_proflie" src="../favicon.svg" alt="profile">
-            <div class="navbar_button">
+        <nav class="navbar">
+            <div class="logo">
+                <img class="img_profile" src="../images/brand/favicon.svg" alt="logo">
+                <span>Kittisak.</span>
+            </div>
+            <div class="navbar_links">
                 <a href="../index.html">HOME</a>
-                <a href="../pages/ARTWORK.html">ARTWORK</a>
-                <a href="../pages/3D_MODEL.html">3D MODEL</a>
-                <a href="../pages/CODE.html">CODE</a>
-                <a href="../pages/GRAPHIC.html">GRAPHIC</a>
+                <a href="./ARTWORK.html">ARTWORK</a>
+                <a href="./3D_MODEL.html">3D MODEL</a>
+                <a href="./CODE.html" class="active">CODE</a>
+
             </div>
         </nav>
     </header>
-    <main>
-        <div class="big-main">
-            <div class="top-main">
-                <div class="sub-main1">
-                    <div class="sub-main-top1">
-                        <p>nigger</p>
-                    </div>
-                    <br>
-                    <p>nigger</p>
+
+    <main class="page-container">
+        <div class="page-header">
+            <h1 class="page-title">Coding Projects</h1>
+            <p class="page-subtitle">Web applications, scripts, and software engineering projects.</p>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item glass-panel">
+                <div class="item-image-wrapper">
+                    <img src="../images/code/code-01.png" alt="E-Commerce Frontend">
                 </div>
-                <div class="sub-main2">
-                    <div class="sub-main-top2">
-                        <p>nigger</p>
+                <div class="item-info">
+                    <h3 class="item-title">E-Commerce Frontend</h3>
+                    <p class="item-desc">A fully responsive modern e-commerce interface built with React and TailwindCSS. Includes cart functionality and product filtering.</p>
+                    <div class="item-tags">
+                        <span>React</span>
+                        <span>TailwindCSS</span>
+                        <span>Vite</span>
                     </div>
-                    <br>
-                    <p>nigger</p>
-                </div>
-                <div class="sub-main3">
-                    <div class="sub-main-top3">
-                        <p>nigger</p>
-                    </div>
-                    <br>
-                    <p>nigger</p>
-                </div>
-                <div class="sub-main4">
-                    <div class="sub-main-top4">
-                        <p>nigger</p>
-                    </div>
-                    <br>
-                    <p>nigger</p>
                 </div>
             </div>
-            <div class="buttom-main">
-                <div class="sub-main1">
-                    <div class="sub-main-top1">
-                        <p>nigger</p>
-                    </div>
-                    <br>
-                    <p>nigger</p>
+            
+            <div class="gallery-item glass-panel">
+                <div class="item-image-wrapper">
+                    <img src="../images/code/code-02.png" alt="IoT Dashboard">
                 </div>
-                <div class="sub-main2">
-                    <div class="sub-main-top2">
-                        <p>nigger</p>
+                <div class="item-info">
+                    <h3 class="item-title">IoT Dashboard</h3>
+                    <p class="item-desc">A web dashboard for monitoring data from embedded systems and microcontroller sensors in real-time.</p>
+                    <div class="item-tags">
+                        <span>JavaScript</span>
+                        <span>Chart.js</span>
+                        <span>IoT</span>
                     </div>
-                    <br>
-                    <p>nigger</p>
                 </div>
-                <div class="sub-main3">
-                    <div class="sub-main-top3">
-                        <p>nigger</p>
-                    </div>
-                    <br>
-                    <p>nigger</p>
+            </div>
+            
+            <div class="gallery-item glass-panel">
+                <div class="item-image-wrapper">
+                    <img src="../images/code/code-03.png" alt="Personal Portfolio">
                 </div>
-                <div class="sub-main4">
-                    <div class="sub-main-top4">
-                        <p>nigger</p>
+                <div class="item-info">
+                    <h3 class="item-title">Personal Portfolio</h3>
+                    <p class="item-desc">This very website! Designed with a modern glassmorphism aesthetic, focusing on smooth animations and responsive layout.</p>
+                    <div class="item-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>UI/UX</span>
                     </div>
-                    <br>
-                    <p>nigger</p>
                 </div>
             </div>
         </div>

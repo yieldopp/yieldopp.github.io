@@ -1,65 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kittisak</title>
+    <title>Kittisak | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+Thai:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="shrotcut icon" href="favicon.svg">
+    <link rel="shortcut icon" href="images/brand/favicon.svg">
 </head>
 <body>
+    <div class="glow-bg"></div>
     <header>
-        <nav>
-            <img class="img_proflie" src="favicon.svg" alt="profile">
-            <div class="navbar_button">
-                <a href="./index.html">HOME</a>
+        <nav class="navbar">
+            <div class="logo">
+                <img class="img_profile" src="images/brand/favicon.svg" alt="logo">
+                <span>Kittisak.</span>
+            </div>
+            <div class="navbar_links">
+                <a href="./index.html" class="active">HOME</a>
                 <a href="./pages/ARTWORK.html">ARTWORK</a>
                 <a href="./pages/3D_MODEL.html">3D MODEL</a>
                 <a href="./pages/CODE.html">CODE</a>
-                <a href="./pages/GRAPHIC.html">GRAPHIC</a>
+
             </div>
         </nav>
     </header>
-    <main>
-        <div class="main-profile">
-            <div class="box-text">
-                <div class="sub-box-text1">
-                    <h1>Wellcome To My Webside</h1>
-                    <br>
-                    <h3>My Portfolio and Skill </h3>
+
+    <main class="container">
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="badge">Welcome To My Website</div>
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Kittisak</span></h1>
+                <h2 class="hero-subtitle">IT Student & 3D Modeler</h2>
+                
+                <div class="about-card glass-panel">
+                    <h3>About Me</h3>
+                    <p>ผมนายกิตติศักดิ์ สีเหลือง เรียนที่มหาลัยราชมงคล ธัญบุรี มีความสนใจในด้านความรู้เกี่ยวกับ IT ต่างๆ และมีความสามารถการสื่อสารขั้นพื้นฐาน เข้าใจภาษาโปรแกรมและการทำโมเดล 3D และยังสนใจในเรื่องอุปกรณ์อิเล็กทรอนิกส์และการเขียนโปรแกรมฝังบอร์ด</p>
                 </div>
-                <div class="sub-box-text2">
-                    <h1>About Me</h1>
-                    <h3>ผมนายกิตติศักดิ์ สีเหลือง เรียนที่มหาลัยราชมงคล ธัญบุรี <br> มีความสนใจในด้านความรู้เกี่ยวกับ IT ต่างๆและมีความสามารถการสื่อสารขั้นพื้นฐานและเข้าใจภาษาโปรแกรมและการทำโดเมล3D และยังสนใจในเรื่องอุปกรณ์อิเล็กทรอนิกส์และการเขียนโปรแกรมฝังบอร์ด</p>
-                    <br>
-                    <hr>
-                </div>
-                <br>
-                <div class="sub-box-text3">
-                    <h1>For What?</h1>
-                    <h3>เว็บไซน์นี้ถูกทำขึ้นมาเพื่อเป็นที่เก็บรวบรวมผลงานของผมเอง และความสามารถที่ผมมีเพื่อนำไป ประกอบการตัดสินใจที่จะจ้างงานหรือการรับงานฟรีแลนซ์ต่างๆ </h3>
-                    <br>
-                    <hr>
+                
+                <div class="purpose-card glass-panel">
+                    <h3>For What?</h3>
+                    <p>เว็บไซต์นี้ถูกทำขึ้นมาเพื่อเป็นที่เก็บรวบรวมผลงานของผมเอง และความสามารถที่ผมมีเพื่อนำไปประกอบการตัดสินใจที่จะจ้างงานหรือการรับงานฟรีแลนซ์ต่างๆ</p>
                 </div>
             </div>
-            <div class="box-profile">
-                <div class="sub-box-profile1">
-                    <h1>fuck</h1>
-                </div>
-                <br>
-                <hr>
-                <div>
-                    <h1>Skill</h1>
-                    <p>-Html ระดับพื้นฐาน <br>-Css ระดับพื้นฐาน<br>-javascript ระดับพื้นฐา<br>-react ระดับพื้นฐาน<br>-Blender ระดับพื้นฐาน<br></p>
-                </div>
-                <br>
-                <hr>
-                <div>
-                    <h1>Contact</h1>
-                    <p>Facebook | Kittisak WorkingFreelance<br>Email | kittisakyieldceo@gmail.com <br>Phone | 0989749159 </p>
+
+            <div class="hero-profile">
+                <div class="profile-card glass-panel">
+                    <div class="profile-image-container">
+                        <img src="images/brand/profile.png" alt="Kittisak Profile Picture" class="profile-img">
+                        <div class="status-indicator" title="Available for work"></div>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3>Skills</h3>
+                        <div class="skills-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Blender</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-section">
+                        <h3>Contact</h3>
+                        <ul class="contact-list">
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                                <span>Kittisak WorkingFreelance</span>
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                                <span>kittisakyieldceo@gmail.com</span>
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect><path d="M12 18h.01"></path></svg>
+                                <span>0989749159</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 </body>
 </html>
